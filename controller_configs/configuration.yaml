@@ -3,3 +3,10 @@ glance_api_config:
         value: 'file'
     'glance_store/default_store':
         value: 'file'
+nova_config:
+    'DEFAULT/verbose':
+        value: 'False'
+
+package:
+    'git':
+        ensure: present

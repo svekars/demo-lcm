@@ -1,0 +1,5 @@
+glance_api_config:
+    'glance_store/stores':
+        value: 'file'
+    'glance_store/default_store':
+        value: 'file'
